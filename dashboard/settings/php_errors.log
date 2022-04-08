@@ -1,0 +1,15 @@
+[01-Sep-2019 11:30:13 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 4 by reference in /Applications/MAMP/htdocs/website/dashboard/settings/settings_save_callback.php:71
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/dashboard/settings/settings_save_callback.php on line 71
+[01-Sep-2019 11:31:19 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 4 by reference in /Applications/MAMP/htdocs/website/dashboard/settings/settings_save_callback.php:71
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/dashboard/settings/settings_save_callback.php on line 71
+[01-Sep-2019 11:32:57 UTC] PHP Notice:  Undefined variable: cUsername in /Applications/MAMP/htdocs/website/dashboard/settings/settings_save_callback.php on line 77
+[01-Sep-2019 11:45:35 UTC] PHP Notice:  Undefined variable: - in /Applications/MAMP/htdocs/website/dashboard/settings/edit_callback.php on line 167
+[01-Sep-2019 11:47:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sendSms() in /Applications/MAMP/htdocs/website/dashboard/settings/settings_save_callback.php:104
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/dashboard/settings/settings_save_callback.php on line 104
+[01-Sep-2019 13:58:15 UTC] PHP Notice:  Undefined variable: cEmail in /Applications/MAMP/htdocs/website/dashboard/settings/edit_callback.php on line 206

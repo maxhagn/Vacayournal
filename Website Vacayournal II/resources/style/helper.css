@@ -1,0 +1,101 @@
+.h_nowrap {
+  flex-wrap: nowrap !important;
+  -ms-flex-wrap: nowrap !important;
+}
+
+.h_underline {
+  padding-bottom: 20px;
+  width: auto;
+  border-bottom: 0.1px solid #999999;
+}
+
+.h_box_shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.h_round_image {
+  height: 30px;
+  width: 30px;
+  border-radius: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+.h_no_margin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.h_border_bottom {
+  border: 1px solid #bfbfbf;
+}
+
+.h_no_margin_top_bottom {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h_margin_left_small {
+  margin-left: 4px;
+}
+
+.h_margin_bottom_large {
+  margin-bottom: 50px;
+}
+
+.h_margin_top_large {
+  margin-top: 50px;
+}
+
+.h_margin_top_small {
+  margin-top: 5px;
+}
+
+.h_margin_vertical {
+  margin: 20px 0;
+}
+
+.h_margin_bottom {
+  margin-bottom: 5px;
+}
+
+.h_padding_vertical {
+  padding: 10px 0;
+}
+
+.h_padding_vertical_small {
+  padding: 3px 0;
+}
+
+.h_cursor_pointer {
+  cursor: pointer;
+}
+
+.h_padding_horizontal {
+  padding: 0 10px;
+}
+
+.h_no_padding {
+  padding: 0 !important;
+}
+
+.h_text_right {
+  justify-content: right !important;
+  text-align: right !important;
+}
+
+.h_position_relative {
+  position: relative;
+}
+
+.f_light_gray {
+  color: #999999;
+}
+
+.f_font_size_middle {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=helper.css.map */

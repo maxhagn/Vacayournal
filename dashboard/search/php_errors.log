@@ -1,0 +1,9 @@
+[01-Sep-2019 20:38:40 UTC] PHP Notice:  Undefined variable: cUserPath in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 19
+[01-Sep-2019 20:38:40 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 22
+[01-Sep-2019 20:38:40 UTC] PHP Notice:  Undefined variable: cUserName in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 22
+[01-Sep-2019 20:38:40 UTC] PHP Notice:  Undefined variable: cUserPath in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 19
+[01-Sep-2019 20:38:40 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 22
+[01-Sep-2019 20:38:40 UTC] PHP Notice:  Undefined variable: cUserName in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 22
+[01-Sep-2019 21:28:43 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 120
+[01-Sep-2019 21:28:44 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 120
+[02-Sep-2019 10:08:06 UTC] PHP Notice:  Undefined variable: cSearchText in /Applications/MAMP/htdocs/website/dashboard/search/index.php on line 128

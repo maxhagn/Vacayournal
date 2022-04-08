@@ -1,0 +1,206 @@
+[27-Aug-2019 15:21:21 UTC] PHP Warning:  include(../resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:21:21 UTC] PHP Warning:  include(): Failed opening '../resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:21:21 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:21:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:22:03 UTC] PHP Warning:  include(../resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:22:03 UTC] PHP Warning:  include(): Failed opening '../resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:22:03 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:22:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:22:39 UTC] PHP Warning:  include(/website/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:22:39 UTC] PHP Warning:  include(): Failed opening '/website/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:22:39 UTC] PHP Warning:  include(/website/essentials/essentials.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 3
+[27-Aug-2019 15:22:39 UTC] PHP Warning:  include(): Failed opening '/website/essentials/essentials.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 3
+[27-Aug-2019 15:22:39 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:22:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:22:57 UTC] PHP Warning:  include(resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:22:57 UTC] PHP Warning:  include(): Failed opening 'resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:22:57 UTC] PHP Warning:  include(/essentials/essentials.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 3
+[27-Aug-2019 15:22:57 UTC] PHP Warning:  include(): Failed opening '/essentials/essentials.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 3
+[27-Aug-2019 15:22:57 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:22:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:25:01 UTC] PHP Warning:  include(../resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:25:01 UTC] PHP Warning:  include(): Failed opening '../resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:25:01 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:25:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:27:41 UTC] PHP Warning:  include(/website/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:27:41 UTC] PHP Warning:  include(): Failed opening '/website/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:27:41 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:27:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:27:42 UTC] PHP Warning:  include(/website/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:27:42 UTC] PHP Warning:  include(): Failed opening '/website/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:27:42 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:27:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:27:43 UTC] PHP Warning:  include(/website/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:27:43 UTC] PHP Warning:  include(): Failed opening '/website/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:27:43 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:27:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:28:05 UTC] PHP Warning:  include(website/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:28:05 UTC] PHP Warning:  include(): Failed opening 'website/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:28:05 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:28:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:28:10 UTC] PHP Warning:  include(/website/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:28:10 UTC] PHP Warning:  include(): Failed opening '/website/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 2
+[27-Aug-2019 15:28:10 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:28:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 16
+[27-Aug-2019 15:28:42 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/esources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:28:42 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/esources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:28:42 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:28:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:28:52 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:28:52 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:28:52 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:28:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:28:58 UTC] PHP Warning:  include(/Applications/MAMP/htdocswebsite//resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:28:58 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocswebsite//resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:28:58 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:28:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:28:59 UTC] PHP Warning:  include(/Applications/MAMP/htdocswebsite/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:28:59 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocswebsite/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:28:59 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:28:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:29:00 UTC] PHP Warning:  include(/Applications/MAMP/htdocswebsite/resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:29:00 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocswebsite/resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/session.php on line 6
+[27-Aug-2019 15:29:00 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[27-Aug-2019 15:29:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/essentials/session.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/website/dashboard/user/index.php(2): include()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/website/essentials/session.php on line 20
+[31-Aug-2019 20:52:42 UTC] PHP Notice:  Undefined variable: tNickname in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 211
+[31-Aug-2019 20:52:42 UTC] PHP Notice:  Undefined variable: tSlogan in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 216
+[31-Aug-2019 20:56:24 UTC] PHP Notice:  Undefined variable: tNickname in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 211
+[31-Aug-2019 20:56:24 UTC] PHP Notice:  Undefined variable: tSlogan in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 216
+[01-Sep-2019 15:10:45 UTC] PHP Notice:  Undefined variable: tNickname in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 211
+[01-Sep-2019 15:10:45 UTC] PHP Notice:  Undefined variable: tSlogan in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 216
+[01-Sep-2019 15:11:52 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 41
+[01-Sep-2019 15:12:00 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 41
+[01-Sep-2019 15:13:47 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 41
+[01-Sep-2019 15:18:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting '(' in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 95
+[01-Sep-2019 15:18:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting '(' in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 95
+[01-Sep-2019 16:34:01 UTC] PHP Warning:  include(../essentials/session.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 2
+[01-Sep-2019 16:34:01 UTC] PHP Warning:  include(): Failed opening '../essentials/session.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 2
+[01-Sep-2019 16:34:01 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 9
+[01-Sep-2019 16:34:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php:9
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 9
+[01-Sep-2019 16:36:32 UTC] PHP Warning:  include(../essentials/session.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 2
+[01-Sep-2019 16:36:32 UTC] PHP Warning:  include(): Failed opening '../essentials/session.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 2
+[01-Sep-2019 16:36:32 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 9
+[01-Sep-2019 16:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php:9
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 9
+[01-Sep-2019 16:36:52 UTC] PHP Notice:  Undefined variable: iFormat in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 40
+[01-Sep-2019 16:36:52 UTC] PHP Notice:  Undefined variable: iCreated in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 41
+[01-Sep-2019 16:36:52 UTC] PHP Notice:  Undefined variable: iPath in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 50
+[01-Sep-2019 16:36:52 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 58
+[01-Sep-2019 16:36:52 UTC] PHP Notice:  Undefined variable: iUsername in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:36:52 UTC] PHP Notice:  Undefined variable: Comments in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 73
+[01-Sep-2019 16:36:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 73
+[01-Sep-2019 16:36:56 UTC] PHP Notice:  Undefined variable: iFormat in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 40
+[01-Sep-2019 16:36:56 UTC] PHP Notice:  Undefined variable: iCreated in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 41
+[01-Sep-2019 16:36:56 UTC] PHP Notice:  Undefined variable: iPath in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 50
+[01-Sep-2019 16:36:56 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 58
+[01-Sep-2019 16:36:56 UTC] PHP Notice:  Undefined variable: iUsername in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:36:56 UTC] PHP Notice:  Undefined variable: Comments in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 73
+[01-Sep-2019 16:36:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 73
+[01-Sep-2019 16:41:25 UTC] PHP Notice:  Undefined variable: iFormat in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 40
+[01-Sep-2019 16:41:25 UTC] PHP Notice:  Undefined variable: iCreated in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 41
+[01-Sep-2019 16:41:25 UTC] PHP Notice:  Undefined variable: iPath in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 50
+[01-Sep-2019 16:41:25 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 58
+[01-Sep-2019 16:41:25 UTC] PHP Notice:  Undefined variable: iUsername in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:41:25 UTC] PHP Notice:  Undefined variable: Comments in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 73
+[01-Sep-2019 16:41:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 73
+[01-Sep-2019 16:41:29 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 58
+[01-Sep-2019 16:41:29 UTC] PHP Notice:  Undefined variable: iUsername in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:42:47 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 60
+[01-Sep-2019 16:42:50 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 60
+[01-Sep-2019 16:45:04 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:45:07 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:46:36 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:46:56 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:47:24 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:48:18 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:49:05 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:49:13 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 16:50:24 UTC] PHP Notice:  Undefined index: path in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 63
+[01-Sep-2019 17:06:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 1370
+[01-Sep-2019 17:06:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 1370
+[01-Sep-2019 17:06:14 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 1370
+[01-Sep-2019 17:15:25 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 44
+[01-Sep-2019 17:15:31 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 44
+[01-Sep-2019 17:16:24 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 44
+[01-Sep-2019 17:16:56 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 44
+[01-Sep-2019 17:22:39 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 44
+[01-Sep-2019 17:22:39 UTC] PHP Notice:  Undefined index: username in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 82
+[01-Sep-2019 17:22:39 UTC] PHP Notice:  Undefined index: username in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 82
+[01-Sep-2019 17:22:39 UTC] PHP Notice:  Undefined index: username in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 82
+[01-Sep-2019 17:24:05 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 44
+[01-Sep-2019 17:25:54 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 44
+[01-Sep-2019 17:26:47 UTC] PHP Notice:  Undefined variable: cUserId in /Applications/MAMP/htdocs/website/dashboard/user/image_callback.php on line 44
+[01-Sep-2019 18:25:44 UTC] PHP Notice:  Undefined index: id in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 513
+[01-Sep-2019 18:25:44 UTC] PHP Notice:  Undefined index: id in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 513
+[01-Sep-2019 18:25:44 UTC] PHP Notice:  Undefined index: id in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 513
+[01-Sep-2019 18:25:44 UTC] PHP Notice:  Undefined index: id in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 513
+[01-Sep-2019 18:25:44 UTC] PHP Notice:  Undefined index: id in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 513
+[01-Sep-2019 18:25:44 UTC] PHP Notice:  Undefined index: id in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 513
+[01-Sep-2019 18:25:44 UTC] PHP Notice:  Undefined index: id in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 513
+[02-Sep-2019 11:29:21 UTC] PHP Notice:  Undefined variable: cImageLiked in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 112
+[02-Sep-2019 11:29:21 UTC] PHP Notice:  Undefined variable: cImageCommented in /Applications/MAMP/htdocs/website/dashboard/user/index.php on line 113

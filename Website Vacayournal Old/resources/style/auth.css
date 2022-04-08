@@ -1,0 +1,118 @@
+.s_register {
+  display: block;
+  position: relative;
+  padding: 0;
+  border-radius: 6px;
+  text-align: left;
+}
+.s_register p {
+  margin-left: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.s_register h2 {
+  margin-left: 0;
+  margin-bottom: 0;
+  line-height: 1em;
+}
+.s_register h3 small {
+  margin-left: 2px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.s_register form {
+  display: block;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-top: 20px;
+  width: 100%;
+}
+.s_register form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 40px;
+  cursor: pointer !important;
+  background-color: #C0000D;
+  color: #FFFFFF;
+  font-size: 22px;
+}
+.s_register form input[type=password],
+.s_register form input[type=text],
+.s_register form input[type=email],
+.s_register form select {
+  max-width: 80%;
+  min-width: 60%;
+  font-size: 16px;
+  height: 40px;
+  border-top: 0.1px solid #C1C1C1;
+  border-left: none;
+  border-right: 0.1px solid #C1C1C1;
+  border-bottom: 0.1px solid #C1C1C1;
+  margin-bottom: 20px;
+  margin-left: 0;
+  padding: 0 15px;
+  outline: none;
+}
+.s_register form select {
+  min-width: 50%;
+  max-width: 50%;
+}
+.s_register form input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.s_register form input[type=radio]:checked ~ .i_check_mark:after {
+  display: block;
+}
+.s_register form .i_check_mark {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  height: 40px;
+  width: 50px;
+  background-color: white;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.s_register form .i_check_mark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 20px;
+  top: 10px;
+  width: 5px;
+  height: 10px;
+  border: solid #ccd1d8;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg) scale(2);
+  -ms-transform: rotate(45deg) scale(2);
+  transform: rotate(45deg) scale(2);
+}
+.s_register form button {
+  max-width: 80%;
+  min-width: 300px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #414141;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  margin-left: 0;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.s_register form button:hover {
+  background-color: #4e4e4e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.24);
+}
+.s_register form button:active {
+  background-color: #5b5b5b;
+  box-shadow: inset 0 4px 12px rgba(0, 0, 0, 0.12), inset 0 4px 8px rgba(0, 0, 0, 0.24);
+}
+
+/*# sourceMappingURL=auth.css.map */

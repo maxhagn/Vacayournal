@@ -1,0 +1,56 @@
+[27-Aug-2019 13:32:59 UTC] PHP Warning:  include(resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/index.php on line 2
+[27-Aug-2019 13:32:59 UTC] PHP Warning:  include(): Failed opening 'resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/index.php on line 2
+[27-Aug-2019 13:32:59 UTC] PHP Warning:  include(html_header.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/index.php on line 3
+[27-Aug-2019 13:32:59 UTC] PHP Warning:  include(): Failed opening 'html_header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/index.php on line 3
+[27-Aug-2019 13:32:59 UTC] PHP Warning:  include(essentials.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/index.php on line 4
+[27-Aug-2019 13:32:59 UTC] PHP Warning:  include(): Failed opening 'essentials.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/index.php on line 4
+[27-Aug-2019 13:33:22 UTC] PHP Warning:  include(resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 2
+[27-Aug-2019 13:33:22 UTC] PHP Warning:  include(): Failed opening 'resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 2
+[27-Aug-2019 13:33:22 UTC] PHP Warning:  include(essentials.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 3
+[27-Aug-2019 13:33:22 UTC] PHP Warning:  include(): Failed opening 'essentials.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 3
+[27-Aug-2019 13:33:22 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 43
+[27-Aug-2019 13:33:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php:43
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 43
+[27-Aug-2019 13:33:24 UTC] PHP Warning:  include(resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 2
+[27-Aug-2019 13:33:24 UTC] PHP Warning:  include(): Failed opening 'resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 2
+[27-Aug-2019 13:33:24 UTC] PHP Warning:  include(essentials.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 3
+[27-Aug-2019 13:33:24 UTC] PHP Warning:  include(): Failed opening 'essentials.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 3
+[27-Aug-2019 13:33:24 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 43
+[27-Aug-2019 13:33:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php:43
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/complete/profile_form_callback.php on line 43
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 2
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(): Failed opening 'resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 2
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(mail.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 3
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(): Failed opening 'mail.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 3
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(essentials.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 4
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(): Failed opening 'essentials.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 4
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(mail_templates.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 5
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(): Failed opening 'mail_templates.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 5
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(sms.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 6
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(): Failed opening 'sms.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 6
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(classes/resize-class.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 7
+[27-Aug-2019 13:37:13 UTC] PHP Warning:  include(): Failed opening 'classes/resize-class.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 7
+[27-Aug-2019 13:37:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetUserName() in /Applications/MAMP/htdocs/website/complete/profile_form_save.php:16
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 16
+[27-Aug-2019 13:37:49 UTC] PHP Warning:  require(../../bin/php/php7.3.1/lib/php/phpmailer/src/Exception.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/essentials/mail.php on line 6
+[27-Aug-2019 13:37:49 UTC] PHP Fatal error:  require(): Failed opening required '../../bin/php/php7.3.1/lib/php/phpmailer/src/Exception.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/essentials/mail.php on line 6
+[27-Aug-2019 13:38:23 UTC] PHP Warning:  move_uploaded_file(resources/images/profile141.jpg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 130
+[27-Aug-2019 13:38:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/1j/t6br6lcd16g60mys6dgj2ftw0000gn/T/phpGtvsbC' to 'resources/images/profile141.jpg' in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 130
+[27-Aug-2019 13:45:59 UTC] PHP Warning:  move_uploaded_file(/website/resources/images/profile143.jpg): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 130
+[27-Aug-2019 13:45:59 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/1j/t6br6lcd16g60mys6dgj2ftw0000gn/T/phpJVLoyU' to '/website/resources/images/profile143.jpg' in /Applications/MAMP/htdocs/website/complete/profile_form_save.php on line 130
+[27-Aug-2019 13:55:42 UTC] PHP Warning:  include(resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_user_callback.php on line 2
+[27-Aug-2019 13:55:42 UTC] PHP Warning:  include(): Failed opening 'resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_user_callback.php on line 2
+[27-Aug-2019 13:55:42 UTC] PHP Warning:  include(essentials.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/complete/profile_form_user_callback.php on line 3
+[27-Aug-2019 13:55:42 UTC] PHP Warning:  include(): Failed opening 'essentials.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/complete/profile_form_user_callback.php on line 3
+[27-Aug-2019 13:55:42 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/complete/profile_form_user_callback.php on line 7
+[27-Aug-2019 13:55:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/complete/profile_form_user_callback.php:7
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/complete/profile_form_user_callback.php on line 7
+[27-Aug-2019 14:30:01 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /Applications/MAMP/htdocs/website/essentials/essentials.php on line 245

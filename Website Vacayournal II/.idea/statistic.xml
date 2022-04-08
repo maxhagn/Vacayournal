@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Statistic">
+    <option name="excludeDotArtifactDirectory" value="true" />
+    <option name="excludedDirectories">
+      <list>
+        <option value="$PROJECT_DIR$/resources/scripts/JavaScript-Load-Image" />
+        <option value="$PROJECT_DIR$/resources/images" />
+        <option value="$PROJECT_DIR$/resources/style/fontawesome" />
+        <option value="$PROJECT_DIR$/resources/style/gridsystem" />
+        <option value="$PROJECT_DIR$/resources/videos" />
+      </list>
+    </option>
+  </component>
+</project>

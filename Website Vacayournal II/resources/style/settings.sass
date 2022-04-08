@@ -1,0 +1,82 @@
+@import color.sass
+
+.s_settings_content
+  border-left: 1px solid #cfcfcf
+  border-bottom: 1px solid #cfcfcf
+  border-right: 1px solid #cfcfcf
+  padding: 20px 50px 200px 50px !important
+
+  h1
+    border-bottom: 1px solid #cfcfcf
+    font-size: 22px
+    padding-bottom: 10px
+    margin-bottom: 0
+    margin-left: -1rem
+    margin-right: -1rem
+
+  .s_change_preview
+    padding-top: 15px
+    padding-bottom: 15px
+    border-bottom: 1px solid #e3e3e3
+    cursor: pointer
+
+    &:hover
+      background-color: #e5e7ea
+
+    &:hover .b_settings_edit
+      border-bottom: 1px solid $blue
+
+  .b_settings_edit
+    background: none
+    border: none
+    color: $blue
+    font-size: 12px
+    border-bottom: 1px solid #e9ebee
+
+    &:hover
+      border-bottom: 1px solid $blue
+
+    &:disabled
+      color: #454545
+      cursor: not-allowed
+      border-bottom-color: #454545
+
+      &:hover
+        border: 0
+
+
+  .s_active_edit
+    padding: 50px 15px 25px 15px
+    background-color: #dcdee1
+    margin-right: -1rem
+    margin-left: -1rem
+
+    .b_settings_edit
+      border-bottom-color: #dcdee1
+
+      &:hover
+        border-bottom-color: $blue
+
+
+    input[type=text]
+      width: 80%
+      height: 20px
+      border: 1px solid rgba(0,0,0,0.32)
+      box-shadow: 0 1px 4px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24)
+      border-radius: 1px
+      outline: none
+      padding-left: 10px
+
+
+.s_settings_button
+  background-color: transparent
+  padding: 10px 0 10px 20px
+  border-bottom: 1px solid #cfcfcf
+  color: #4b4f56
+  font-size: 14px
+  transition: 100ms all ease-in-out
+  line-height: 1.5em
+  outline: none !important
+
+  &:hover
+    background-color: #dddfe2

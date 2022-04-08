@@ -1,0 +1,133 @@
+.s_user_container
+  position: relative
+  height: 830px
+  padding: 0 20px
+  overflow-y: auto
+  border: .1px solid #F2F2F2
+  overflow-x: hidden
+
+  .h_round_image
+    height: 40px
+    width: 40px
+
+  .s_user_unread
+    display: inline-block
+    background-color: #09d261
+    color: #FFFFFF
+    padding: 0 5px
+    font-weight: 700
+    min-width: 12px
+    vertical-align: top
+    text-align: center
+    font-size: 12px
+    height: 22px
+    line-height: 22px
+    border-radius: 12px
+
+
+  .s_show_user_chat
+    padding: 10px 20px
+    border-bottom: 1px solid #F2F2F2
+
+    &:hover
+      background-color: #F1F1F1 !important
+
+.s_message_container
+  height: 770px
+  overflow-y: auto
+  overflow-x: hidden
+  display: flex
+  padding: 10px 40px
+  background-color: #e5ddd5
+  border: 1px solid #F2F2F2
+  flex-direction: column
+
+  .row
+    height: fit-content
+    min-width: 100%
+    max-width: 100%
+
+  .s_chat_message
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    padding: 10px 20px
+    height: fit-content
+    margin: 0 0 10px 0
+    width: 100%
+    background-color: #F1F1F1
+    border-radius: 7.5px
+
+    p
+      word-break: break-word
+
+
+.s_input_container
+  height: 60px
+  background-color: #F1F1F1
+
+  .col-sm-12
+    display: flex
+    justify-content: center
+
+  textarea
+    width: 90%
+    margin: 10px auto
+    border: none
+    font-size: 14px
+    outline: none
+    padding: 10px 20px
+    border-radius: 20px
+    background-color: white
+    min-height: 20px
+    max-height: 20px
+
+  button
+    border: none
+    background: none
+
+    i
+      font-size: 20px
+
+
+.s_chat_bar
+  height: 50px
+  background-color: #EEEEEE
+  border: 1px solid #F2F2F2
+
+  .col-sm-4
+    text-align: right
+
+  button
+    font-size: 14px
+    background: none
+    border: none
+    cursor: pointer
+    color: rgb(38, 50, 56)
+
+    &:hover
+      color: lighten(rgb(38, 50, 56), 20)
+
+  .col-sm-8
+    align-items: center
+    height: 50px
+    line-height: 50px
+    border-left: 1px solid #E0E0E0
+    border-bottom: 1px solid rgba(0,0,0,.08)
+
+    .col-sm-2
+      font-size: 16px
+      font-weight: 400
+
+
+
+.s_chat_container
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  display: block
+  overflow: hidden
+  position: relative
+  padding: 0 10px
+  margin: 0
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2)
+

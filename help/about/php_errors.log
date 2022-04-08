@@ -1,0 +1,11 @@
+[26-Aug-2019 14:43:18 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Applications/MAMP/htdocs/website/help/information/index.php on line 19
+[27-Aug-2019 13:08:48 UTC] PHP Warning:  include(../../essentials.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/help/about/index.php on line 7
+[27-Aug-2019 13:08:48 UTC] PHP Warning:  include(): Failed opening '../../essentials.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/help/about/index.php on line 7
+[27-Aug-2019 13:08:48 UTC] PHP Warning:  include(../../dashboard_header.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/help/about/index.php on line 8
+[27-Aug-2019 13:08:48 UTC] PHP Warning:  include(): Failed opening '../../dashboard_header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/help/about/index.php on line 8
+[27-Aug-2019 13:08:48 UTC] PHP Warning:  include(../../html_header.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/help/about/index.php on line 9
+[27-Aug-2019 13:08:48 UTC] PHP Warning:  include(): Failed opening '../../html_header.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/help/about/index.php on line 9
+[27-Aug-2019 13:08:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ShowHeader() in /Applications/MAMP/htdocs/website/help/about/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/help/about/index.php on line 14

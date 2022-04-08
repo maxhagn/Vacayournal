@@ -1,0 +1,520 @@
+@import fonts.css
+@import helper.sass
+@import structure.sass
+@import show_user.sass
+@import user_page.sass
+@import chat.sass
+@import dashboard.sass
+@import auth.sass
+@import extras.sass
+@import profile_form.sass
+@import gridsystem/css/flexboxgrid.css
+@import color.sass
+@import settings.sass
+
+
+.s_dashboard
+  position: absolute
+  top: 46px
+  bottom: 0
+  width: 100%
+  padding: 20px 0
+  overflow-y: auto
+  overflow-x: hidden
+  -webkit-overflow-scrolling: touch
+
+  .s_online_user
+    background-color: #F1F1F1
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    border-radius: 6px
+    padding: 5px 10px
+
+  .s_write_post
+    position: relative
+    width: 100%
+    background-color: white
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    border-radius: 2px
+    overflow: hidden
+    margin-bottom: 10px
+
+    textarea
+      width: 90%
+      margin: 0 auto
+      padding: 10px 20px
+      border: none
+      outline: none
+      font-size: 14px
+      text-decoration: none
+
+    button
+      height: 30px
+      margin-left: 20px
+      padding: 5px 10px
+      background: none
+      border: none
+      border-radius: 20px
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+
+      &:hover
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 4px 8px rgba(0,0,0,0.22)
+
+    .s_write_post_heading
+      background-color: #F1F1F1
+      position: relative
+      text-align: left
+      padding: 0 20px
+      color: #1d2129
+
+
+.s_show_post
+  position: relative
+  background-color: white
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  border-radius: 2px
+  overflow: hidden
+  margin-bottom: 10px
+  padding: 0 20px
+
+.s_show_post_heading
+  position: relative
+  color: #1d2129
+  padding: 10px 20px
+
+  h3
+    margin-left: 5px
+    font-size: 12px
+    font-weight: normal
+
+.s_show_post_content
+  position: relative
+  text-align: left
+  font-size: 18px
+  color: #1d2129
+  padding: 0 40px
+
+  p
+    padding: 0
+    margin: 0
+
+.s_show_post_buttons
+  color: #1d2129
+  padding: 10px 5px
+
+  button
+    height: 30px
+    width: 100%
+    padding: 5px 10px
+    background: none
+    border: none
+    background-color: white
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+
+    &:hover
+      background-color: #F1F1F1
+
+@media screen and (max-width: 600px)
+  .i_show_image
+    margin: 2px auto !important
+  .h_smaller_margin_on_mobile
+    padding-left: 1px !important
+    padding-right: 1px !important
+
+.i_show_image
+  display: block
+  position: relative
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  max-width: 300px
+  margin: 10px auto
+
+
+  &:after
+    content: ""
+    display: block
+    padding-bottom: 100%
+
+
+  .i_hover_image
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: rgba(0,0,0,0.3)
+    opacity: 0
+    transition: all 1s
+    -webkit-transition: all 1s
+
+    .row
+      height: 100% !important
+
+    span
+      font-size: 20px
+      color: white
+
+  &:hover .i_hover_image
+    opacity: 1
+
+.s_upload
+  font-family: "Open Sans", sans-serif
+
+.b_button_container
+  position: relative
+  margin: 0 auto
+  height: 50px
+  width: 50px
+  transition: all 1s
+  .b_hoverable_action
+    z-index: 5 !important
+  .b_hoverable_action, .b_add_action
+    display: inline-block
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    margin: 0 auto
+    background-color: white
+    color: #262626
+    height: 50px
+    width: 50px
+    border-radius: 102px
+    border: 1px solid #DBDBDB
+    box-shadow: 0 .5px .5px 0 rgba(0,0,0,.06),0 1px 2.5px 0 rgba(0,0,0,.2)
+
+    &:hover
+      box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2)
+
+    &:active
+      box-shadow: inset 0 .5px .5px 0 rgba(0,0,0,.06), inset 0 1px 2.5px 0 rgba(0,0,0,.2)
+
+  .b_add_action
+    z-index: 1 !important
+    transform: scale(0) translateY(0) translateX(0)
+    opacity: 0
+    -webkit-transition: all 500ms cubic-bezier(.42,0,.58,1)
+    transition: transform 500ms cubic-bezier(.42,0,.58,1), opacity 500ms cubic-bezier(.42,0,.58,1)
+
+.b_button_container:hover > #button_image
+  opacity: 1
+  z-index: 1 !important
+  transform: scale(1) translateY(60px) translateX(-90px)
+
+.b_button_container:hover > #button_video
+  opacity: 1
+  z-index: 1 !important
+  transform: scale(1) translateY(60px) translateX(-30px)
+
+.b_button_container:hover > #button_post
+  opacity: 1
+  z-index: 1 !important
+  transform: scale(1) translateY(60px) translateX(30px)
+
+.b_button_container:hover > #button_trip
+  opacity: 1
+  z-index: 1 !important
+  transform: scale(1) translateY(60px) translateX(90px)
+
+.b_button_container:hover
+  height: 120px
+  width: 270px
+
+.s_action_add_section
+  textarea
+    margin-top: 0 !important
+    padding-left: 0 !important
+  .s_image_preview
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    height: 100px
+    margin: 6.5px 3px 6.5px 3px
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2)
+  .f_add_heading
+    display: block
+    margin-bottom: 5px
+    font-size: 14px
+    font-weight: 400
+
+.s_notification_preview_container
+  display: none
+  position: absolute
+  max-height: 490px
+  width: 430px
+  top: 70px
+  right: -10px
+  background-color: #FFFFFF
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2)
+
+  &:after
+    content: ''
+    position: absolute
+    top: 0
+    right: 5%
+    width: 0
+    height: 0
+    border: 13px solid transparent
+    border-bottom-color: #FFFFFF
+    border-top: 0
+    margin-left: -13px
+    margin-top: -13px
+
+  .s_notification_box
+    position: relative
+    height: 60px
+    width: 100%
+
+.s_search_preview_container
+  display: none
+  position: absolute
+  max-height: 490px
+  width: 95%
+  top: 34px
+  border-radius: 1px
+  right: 12px
+  background-color: #FFFFFF
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2)
+
+  .s_search_box
+    height: 15px
+    text-align: left
+    padding: 10px 20px
+
+    &:hover
+      background-color: #ececec
+
+  .h_search_box_more
+    background-color: #FFF
+    color: lighten($blue, 20)
+    transition: 200ms all ease-in-out
+    letter-spacing: 1px
+    font-weight: 500
+
+    &:hover
+      background-color:  $blue
+      color: white
+
+.modal
+  display: none
+  position: fixed
+  z-index: 99
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  font-size: 14px
+  overflow: hidden
+  background-color: rgb(0,0,0)
+  background-color: rgba(0,0,0,0.5)
+
+.modal-content
+  display: block
+  position: relative
+  background-color: #fefefe
+  margin: 5% auto
+  border: 1px solid #888
+  width: fit-content
+  height: auto
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2)
+
+  .row, .col-sm-4, .col-sm-6
+    padding: 0
+    margin: 0
+
+.s_full_image_container
+  display: block
+  position: relative
+  width: fit-content
+  background-color: #fefefe
+  margin-top: 30px
+  height: 540px
+
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2)
+  .i_show_image
+    margin: 0
+
+  .s_modal_image_landscape
+    height: 386px
+    width: 640px
+
+  .s_modal_image_portrait
+    height: 540px
+    width: 405px
+
+  .s_modal_image_square
+    height: 540px
+    width: 540px
+
+  .s_modal_text_container
+    border-left: 1px solid #efefef
+    display: block
+    position: relative
+    width: 350px
+    height: 540px
+
+  .s_modal_action_buttons
+    text-align: left
+
+  .row, .col-sm-4, .col-sm-6
+    padding: 0
+    margin: 0
+
+.s_modal_text_container
+  display: block
+  position: relative
+  width: 350px
+
+.close
+  position: absolute
+  top: 10px
+  right: 10px
+  color: #aaa
+  font-size: 28px
+  font-weight: bold
+  z-index: 99
+  transition: all 200ms ease-in-out
+
+  &:hover,
+  &:focus
+    color: black
+    text-decoration: none
+    cursor: pointer
+
+.s_modal_image_landscape, .s_modal_image_portrait, .s_modal_image_square
+  display: block
+  position: relative
+  margin: 0 auto
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.s_modal_image_landscape
+  height: 586px
+  width: 840px
+
+.s_modal_image_portrait
+  height: 675px
+  width: 540px
+
+.s_modal_image_square
+  height: 540px
+  width: 540px
+
+.s_modal_creator
+  position: relative
+  height: 50px
+  line-height: 50px
+  padding: 10px 0
+  width: 100%
+  border-top: 1px solid #efefef
+  left: 0
+  right: 0
+  top: 0
+
+  button
+    background-color: white
+    border: 1px solid #DBDBDB
+    border-radius: 4px
+    padding: 5px 24px
+    color: #262626
+    font-size: 12px
+
+    &:hover
+      color: #262626
+      box-shadow: 0 .5px .5px 0 rgba(0,0,0,.06),0 1px 2.5px 0 rgba(0,0,0,.2)
+
+.s_modal_comments
+  position: absolute
+  width: 100%
+  border-top: 1px solid #efefef
+  top: 70px
+  left: 0
+  right: 0
+  bottom: 160px
+  overflow-y: auto
+  overflow-x: hidden
+
+.s_modal_action_buttons
+  position: absolute
+  height: 110px
+  width: 100%
+  border-top: 1px solid #efefef
+  left: 0
+  right: 0
+  bottom: 50px
+
+  button
+    font-size: 20px
+    background: none
+    border: none
+    outline: none
+    color: darken(#efefef,60)
+    &:hover
+      color: darken(#efefef,40)
+
+.s_modal_input
+  position: absolute
+  height: 50px
+  width: 100%
+  padding: 0
+  border-top: 1px solid #efefef
+  left: 0
+  right: 0
+  bottom: 0
+
+  textarea
+    display: inline-block
+    position: relative
+    width: 190px
+    left: 0
+    font-size: 14px
+    top: 0
+    height: 20px
+    padding: 15px 40px
+    border: none
+    margin: 0
+    outline: none
+
+  button
+    display: inline-block
+    position: relative
+    height: 50px
+    width: 70px
+    margin: 0
+    right: 0
+    top: -20px
+    border: none
+    background: 0
+    color: darken(#efefef,60)
+    font-size: 18px
+
+    &:hover
+      color: darken(#efefef,40)
+
+
+.s_show_comment
+  width: 100%
+  min-height: 50px
+  padding-top: 20px
+  font-size: 13px
+
+.s_title_image_landscape
+  display: block
+  position: relative
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top
+  height: 186px
+  width: 640px
+  top: 0
+
+.s_modal_image_container
+  width: 640px
+  background-color: #FFFFFF
+
+

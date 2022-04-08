@@ -1,0 +1,14 @@
+[27-Aug-2019 13:27:08 UTC] PHP Warning:  include(resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/auth/authenticate.php on line 2
+[27-Aug-2019 13:27:08 UTC] PHP Warning:  include(): Failed opening 'resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/auth/authenticate.php on line 2
+[27-Aug-2019 13:27:08 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/auth/authenticate.php on line 19
+[27-Aug-2019 13:27:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/auth/authenticate.php:19
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/auth/authenticate.php on line 19
+[29-Aug-2019 22:45:16 UTC] PHP Warning:  include(resources/config/config.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/website/auth/logout.php on line 2
+[29-Aug-2019 22:45:16 UTC] PHP Warning:  include(): Failed opening 'resources/config/config.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/website/auth/logout.php on line 2
+[29-Aug-2019 22:45:16 UTC] PHP Notice:  Undefined variable: database in /Applications/MAMP/htdocs/website/auth/logout.php on line 5
+[29-Aug-2019 22:45:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/website/auth/logout.php:5
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/website/auth/logout.php on line 5

@@ -1,0 +1,247 @@
+.s_register, .h_login_get_style
+  display: block
+  position: relative
+  padding: 0
+  border-radius: 6px
+  text-align: left
+
+
+  p
+    margin-left: 2px
+    font-family: "Open Sans", sans-serif
+    font-size: 15px
+
+  h2
+    margin-left: 0
+    margin-bottom: 0
+    line-height: 1em
+
+  h3
+
+    small
+      margin-left: 2px
+      font-size: 18px
+      font-weight: 400
+
+  form
+    display: block
+    flex-wrap: wrap
+    text-align: left
+    padding-top: 20px
+    width: 100%
+
+
+    label
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 50px
+      height: 40px
+      cursor: pointer !important
+      //background-color: #C0000D
+      //color: #FFFFFF
+      background-color: #FFF
+      color: #000
+      font-size: 22px
+      border-bottom: .1px solid #C1C1C1
+      border-top: .1px solid #C1C1C1
+      border-left: .1px solid #C1C1C1
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+
+    input[type="password"],
+    input[type="checkbox"],
+    input[type="text"],
+    input[type="email"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="file"],
+    textarea,
+    select
+      max-width: 80%
+      min-width: 60%
+      font-size: 16px
+      height: 40px
+      border-top: .1px solid #C1C1C1
+      border-left: none
+      border-right: .1px solid #C1C1C1
+      border-bottom: .1px solid #C1C1C1
+      margin-bottom: 20px
+      margin-left: 0
+      padding: 0 15px
+      outline: none
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+
+    textarea
+      height: auto !important
+      max-width: 80%
+      min-width: 60%
+      margin-top: 0
+      padding: 10px 16px 10px 16px !important
+      border-left: .1px solid #C1C1C1
+
+    input[type="file"]
+      max-width: 60% !important
+
+    select
+      min-width: 50%
+      max-width: 50%
+
+    input[type="checkbox"],
+    input[type="radio"]
+      position: absolute
+      opacity: 0
+      cursor: pointer
+      height: 0
+      width: 0
+
+
+    input[type="checkbox"]:checked ~ .i_check_mark:after,
+    input[type="radio"]:checked ~ .i_check_mark:after
+      display: block
+
+    .i_check_mark
+      position: absolute
+      top: 0
+      left: 80px
+      height: 40px
+      width: 50px
+      background-color: white
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.12), inset 0 1px 2px rgba(0,0,0,0.24)
+
+
+      &:after
+        content: ""
+        position: absolute
+        display: none
+        left: 20px
+        top: 10px
+        width: 5px
+        height: 10px
+        border: solid darken( #e9ebee, 10 )
+        border-width: 0 3px 3px 0
+        -webkit-transform: rotate(45deg) scale(2)
+        -ms-transform: rotate(45deg) scale(2)
+        transform: rotate(45deg) scale(2)
+
+
+    .b_large_action_button
+      max-width: 80%
+      min-width: 300px
+      cursor: pointer
+      height: 50px
+      border-radius: 20px
+      background-color: #414141
+      color: white
+      font-size: 14px
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+      border: none
+      margin-left: 0
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+
+      &:hover
+        background-color: lighten(#414141,5)
+        box-shadow: 0 4px 12px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.24)
+
+      &:active
+        background-color: lighten(#414141,10)
+        box-shadow: inset 0 4px 12px rgba(0,0,0,0.12), inset 0 4px 8px rgba(0,0,0,0.24)
+
+
+
+.s_cookie_user_preview
+  width: 160px
+  height: 160px
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  padding: 0
+
+.s_cookie__preview_container
+  display: block
+  position: relative
+  width: 160px
+  height: 210px
+  background-color: white
+  margin-top: 30px
+  border-radius: 2px
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+
+  &:hover
+    opacity: .9
+
+  &:hover .b_cookies_delete
+    transform: scale(1.2)
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    color: white
+
+.tooltip
+  color: #cfcfcf
+  text-decoration: underline
+  cursor: pointer
+  position: relative
+  display: none
+
+
+
+.tooltip 
+  position: relative
+  display: inline-block
+  border-bottom: 1px dotted black
+
+
+.tooltip .tooltiptext 
+  visibility: hidden
+  min-width: 200px
+  background-color: black
+  color: #fff
+  text-align: center
+  border-radius: 6px
+  padding: 5px 0
+  position: absolute
+  z-index: 99
+  bottom: 110%
+  left: 50%
+  margin-left: -100px
+  font-size: 10px
+
+.tooltip .tooltiptext::after
+  content: " "
+  position: absolute
+  top: 100%
+  left: 50%
+  margin-left: -5px
+  border-width: 5px
+  border-style: solid
+  border-color: black transparent transparent transparent
+
+
+
+.tooltip:hover .tooltiptext 
+  visibility: visible
+
+.b_cookies_delete
+  position: absolute
+  top: -15px
+  right: -19px
+  border: 0
+  color: #010400
+  background: transparent
+  transition: 400ms all
+  font-size: 22px
+  cursor: pointer
+  z-index: 99
+  text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+
+  &:hover .tooltip
+    display: block !important
+
+
+.b_cookies_accept
+  position: absolute
+  right: 30px
+  top: 30px
+  color: white
+  font-size: 22px
+
+  &:hover
+    color: darkgrey !important
